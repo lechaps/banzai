@@ -1,0 +1,15 @@
+{
+    "proposals": [
+      {
+        "sentence": "Romain"
+      },
+      {
+        "sentence": "Hervé",
+        "comment": "the real anna"
+      },
+      {
+        "sentence": "Rodolphe",
+        "image": "./img/test.jpg"
+      }
+    ]
+}
