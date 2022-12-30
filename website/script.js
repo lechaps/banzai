@@ -6,10 +6,10 @@ const proposalList = [
     {
         "sentence": "En 2023, je croit en mois",
         "comment": "Et surtout en l'orthographe..."
-     },
+    },
     {
         "sentence": "En 2023, épouse-moi",
-        "comment": "C'est un peu directif mais tu mérites ça n'est-ce pas!"
+        "comment": "C'est un peu directe mais t'aimes ça ?!"
     },
     {
         "sentence": "En 2023, je perds du poids",
@@ -37,11 +37,11 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je suis en fin de droit à pole-emploi",
-        "comment":""
+        "comment":"Mais sur mon sort je ne veux pas qu'on larmoie"
     },
     {
         "sentence":"En 2023, je suis agenois",
-        "comment":"C'est joli Agen, non ?!"
+        "comment":"Et le pruneau sera à moi!"
     },
     {
         "sentence":"En 2023, je suis albigeois",
@@ -125,7 +125,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je passe au plan à trois",
-        "comment":"Oui parce que quatre ça faisait trop pour moi !"
+        "comment":"Oui parce que «à quatre» ça faisait trop pour moi !"
     },
     {
         "sentence":"En 2023, je joue du hautbois",
@@ -137,7 +137,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je suis meldois",
-        "comment":"C'est la gentillé de Meaux, mais ça donne des idées..."
+        "comment":"C'est la gentillé de Meaux, mais ça donne des idées ma fois..."
     },
     {
         "sentence":"En 2023, je prends en combat Rocky Balboa",
@@ -145,10 +145,10 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je mange du quinois",
-        "comment":"Avec une énorme raclette et des poix!"
+        "comment":"Avec une énorme raclette et du gras!"
     },
     {
-        "sentence":"En 2023, je mets mes boas",
+        "sentence":"En 2023, y'aura pas Régine mais je mets des boas",
         "comment":"Comme la grande Zoa!"
     },
     {
@@ -157,11 +157,11 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, j'adopte un chamois",
-        "comment":"J'espère avoir du pot cette fois !"
+        "comment":"Et je lui ferai la peau cette fois !"
     },
     {
         "sentence":"En 2023, je suis champenois",
-        "comment":"Enfin, surtout pour la boisson"
+        "comment":"Enfin, surtout pour le champagne que je bois"
     },
     {
         "sentence":"En 2023, je parle chinois",
@@ -217,15 +217,15 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je fuis les pissefroid",
-        "comment":""
+        "comment":"Car la chaude-pisse j'y crois !"
     },
     {
         "sentence":"En 2023, il va faire froid",
-        "comment":""
+        "comment":"Et la méteo j'y crois !"
     },
     {
         "sentence":"En 2023, j'utilise le mot corde, sans effroi",
-        "comment":""
+        "comment":"Sans effroi...mais bon..."
     },
     {
         "sentence":"En 2023, être avec toi me rempli d'émoi",
@@ -253,7 +253,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je serai lavallois",
-        "comment":"J'aime bien l'avale !"
+        "comment":"Une nouvelle dure à avaler !"
     },
     {
         "sentence":"En 2023, je serai lensois",
@@ -277,7 +277,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je serai iroquois",
-        "comment":""
+        "comment":"Avec je l'espère, plein de sioux !"
     },
     {
         "sentence":"En 2023, je mettrai en valeur mon minois",
@@ -409,7 +409,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, l'année dure 12 mois",
-        "comment":"Si c'est pas étonant ça ?"
+        "comment":"Si c'est pas étonnant ça ?"
     },
     {
         "sentence":"En 2023, en cassation je me pourvoie",
@@ -501,7 +501,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, tous les soirs je me mets sur le toit",
-        "comment":""
+        "comment":"Et à la Station avec les copains on flamboie !"
     },
     {
         "sentence":"En 2023, je ne resterai pas étroit",
@@ -527,7 +527,6 @@ const proposalList = [
         "sentence":"En 2023, Pelé ne sera plus le roi",
         "comment":"Mais Killian le deviendra"
     },
-
 ];
 
 /*
@@ -540,20 +539,22 @@ rassoie, revois, rougeoie, sois, soudoie, sursois, surcrois, tournoi, tournoie, 
 
 let previousProposal = null;
 let proposalCount = proposalList.length; 
+//Copie du tableau dans un tableau de tirage au sort
+let proposalListDraw = proposalList.slice()
 
 function selectRandomProposal() {
-// Sélectionne une proposition au hasard dans la liste
-const randomIndex = Math.floor(Math.random() * proposalList.length);
-const proposal = proposalList[randomIndex];
+    // Sélectionne une proposition au hasard dans la liste
+    const randomIndex = Math.floor(Math.random() * proposalListDraw.length);
+    const proposal = proposalListDraw[randomIndex];
 
-// Vérifie que la proposition sélectionnée est différente de la précédente
-if (proposal === previousProposal) {
-    return selectRandomProposal();
-}
+    // Retire la proposition sélectionnée du tableau proposalListDraw
+    proposalListDraw.splice(randomIndex, 1);
 
-// Enregistre la proposition sélectionnée comme étant la précédente
-previousProposal = proposal;
+    // Si le tableau proposalListDraw est vide, le recharger avec les propositions initiales
+    if (proposalListDraw.length === 0) {
+        proposalListDraw = proposalList.slice()
+    }
 
-// Retourne la proposition sélectionnée
-return proposal;
+    // Retourne la proposition sélectionnée
+    return proposal;
 }

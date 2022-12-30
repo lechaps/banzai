@@ -97,7 +97,6 @@
   function displayRandomProposal() {
     // Sélectionne une proposition au hasard
     const selectedProposal = selectRandomProposal();
-    console.log(selectedProposal);
 
     // Affiche la proposition sélectionnée dans la page HTML
     document.getElementById("proposal").innerHTML = selectedProposal.sentence;
@@ -112,7 +111,7 @@
 
   // Affiche une proposition au hasard au chargement de la page
   window.onload = displayRandomProposal;
-  // Affiche le nombre de propositions est 3
+  // Affiche le nombre de propositions
   document.getElementById("proposal-count").innerHTML = proposalCount;
   // Recharge une proposition
   document.getElementById("reload-button").addEventListener("click", displayRandomProposal);
