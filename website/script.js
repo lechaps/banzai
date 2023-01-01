@@ -72,7 +72,7 @@ const proposalList = [
         "comment":"Oui je sais c'est dur mais ça aurait pu être albigeois..."
     },
     {
-        "sentence":"En 2023, je suis auxerrois",
+        "sentence":"En 2023, je suis supporter auxerrois",
         "comment":"Et je fabrique des tours Eiffel en alumettes parfois..."
     },
     {
