@@ -530,6 +530,10 @@ const proposalList = [
     {
         "sentence":"En 2023, je ne te laisserai pas aux abois",
         "comment":"En te renconforterai en mangeant des abas !"
+    },
+    {
+        "sentence":"En 2023, je suis finnois",
+        "comment":"Haluan voittaa tämän vitun pelin !"
     }
 ];
 
