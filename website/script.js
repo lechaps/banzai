@@ -5,7 +5,7 @@ const proposalList = [
     },
     {
         "sentence": "En 2023, je croit en mois",
-        "comment": "Et surtout en l'orthographe..."
+        "comment": "Et en l'orthographe de surcroit..."
     },
     {
         "sentence": "En 2023, épouse-moi",
@@ -33,7 +33,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, le chien aboie",
-        "comment":"Et la caravane à la casse..."
+        "comment":"Tant qu'il ne mord pas !"
     },
     {
         "sentence":"En 2023, je suis en fin de droit à pole-emploi",
@@ -53,7 +53,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je bois des vins d'Arbois",
-        "comment":"Et s'il n'y avait que ça !"
+        "comment":"Comme s'il n'y avait que ça !"
     },
     {
         "sentence":"En 2023, je suis ardéchois",
@@ -77,7 +77,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je bois de la Badois",
-        "comment":"Mais avec modération !"
+        "comment":"Mais avec modération, ça va de soit !"
     },
     {
         "sentence":"En 2023, je me tape un bavarois",
@@ -104,8 +104,8 @@ const proposalList = [
         "comment":"C'est les habitants de quelle ville déjà ?"
     },
     {
-        "sentence":"En 2023, je conjuge enfin le verbe bois",
-        "comment":"J'ai jamais su conjuguer et boire en même temps !"
+        "sentence":"En 2023, conjuge avec moi : «je bois..»",
+        "comment":"Ca transpire de vérité ça !"
     },
     {
         "sentence":"En 2023, pas de langue de bois",
@@ -117,7 +117,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, j'ai plus d'une flèche dans mon carquois",
-        "comment":"Oui, c'est vrai, j'aime bien tirer..."
+        "comment":"Oui, il faut bien bander pour bien tirer...sinon ça merdoie !"
     },
     {
         "sentence":"En 2023, je retrouve mon frère siamois",
@@ -145,7 +145,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je mange du quinois",
-        "comment":"Avec une énorme raclette et du gras!"
+        "comment":"Avec une énorme raclette et du gras !"
     },
     {
         "sentence":"En 2023, y'aura pas Régine mais je mets des boas",
@@ -225,7 +225,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, j'utilise le mot corde, sans effroi",
-        "comment":"Sans effroi...mais bon..."
+        "comment":"Sans effroi...mais je le dirai dans ma tête, ça ira..."
     },
     {
         "sentence":"En 2023, être avec toi me rempli d'émoi",
@@ -241,7 +241,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, fini l'entresois",
-        "comment":"Mélengeons-nous plus d'une fois !"
+        "comment":"Mélengeons-nous, et plus d'une fois !"
     },
     {
         "sentence":"En 2023, là-bas, au Connemara, on n'accepte pas la paix des Gallois",
@@ -253,7 +253,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je serai lavallois",
-        "comment":"Une nouvelle dure à avaler !"
+        "comment":"Une nouvelle dure à avaler ma fois!"
     },
     {
         "sentence":"En 2023, je serai lensois",
@@ -277,7 +277,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je serai iroquois",
-        "comment":"Avec je l'espère, plein de sioux !"
+        "comment":"Avec plein de sioux avec moi !"
     },
     {
         "sentence":"En 2023, je mettrai en valeur mon minois",
@@ -321,7 +321,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je parlerai patois",
-        "comment":"En s'en mettant dans la corniaule !"
+        "comment":"En s'en mettant dans la corniaule mon gars !"
     },
     {
         "sentence":"En 2023, je serai guérêtois",
@@ -353,7 +353,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, il nous manque Paul Préboist",
-        "comment":""
+        "comment":"Si tu ne sais pas qui c'est, la difficulté s'accroit "
     },
     {
         "sentence":"2023 ne connaîtra pas Linda de Souza !",
@@ -361,7 +361,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je serai Valenciennois",
-        "comment":""
+        "comment":"Voilà..."
     },
     {
         "sentence":"En 2023, dans la foule, je coudoie",
@@ -369,7 +369,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, promis je nettoie",
-        "comment":""
+        "comment":"Oui parce quand je suis content je vomis...tu vois"
     },
     {
         "sentence":"En 2023, je pète dans la soie",
@@ -385,7 +385,7 @@ const proposalList = [
     },    
     {
         "sentence":"En 2023, je suis supporter stéphanois",
-        "comment":"Et en ligue 2 j'y reste pas !"
+        "comment":"Et en ligue 2 j'y tiens même pas !"
     },    
     {
         "sentence":"En 2023, je porte des chemises à pois",
@@ -393,7 +393,7 @@ const proposalList = [
     },    
     {
         "sentence":"En 2023, j'adopte un pékinois",
-        "comment":""
+        "comment":"Mais avec l'accent chinois j'ai peur de pas comprendre mon chien quand il aboie"
     },    
     {
         "sentence":"En 2023, quand tu veux je te reçois",
@@ -409,7 +409,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, en cassation je me pourvoie",
-        "comment":"Et c'est classe de dire ça !"
+        "comment":"Et c'est assez classe de dire ça !"
     },
     {
         "sentence":"En 2023, je poserai plus souvent la question «Mais pourquoi ?»",
@@ -441,7 +441,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je m'en bat les noix",
-        "comment":""
+        "comment":"Tellement classe de dire ça..."
     },
     {
         "sentence":"En 2023, je n'aurai pas besoin de portevoix",
@@ -481,7 +481,7 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, se lever tous les jours sera un exploit",
-        "comment":""
+        "comment":"Et se laver aussi n'est-ce pas ?"
     },
     {
         "sentence":"En 2023, de mille feux tu chatoies",
@@ -509,11 +509,11 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, ça sera tous les jours la joie",
-        "comment":""
+        "comment":"Et rien que ça me suffira"
     },
     {
         "sentence":"En 2023, je porte la croix",
-        "comment":"En forme de tire-bouchon"
+        "comment":"En forme de tire-bouchon il va de soit !"
     },
     {
         "sentence":"En 2023, Pelé ne sera plus le roi",
@@ -529,18 +529,93 @@ const proposalList = [
     },
     {
         "sentence":"En 2023, je ne te laisserai pas aux abois",
-        "comment":"En te renconforterai en mangeant des abas !"
+        "comment":"Et te renconforterai en mangeant des abats !"
     },
     {
         "sentence":"En 2023, je suis finnois",
         "comment":"Haluan voittaa tämän vitun pelin !"
+    },
+    {
+        "sentence":"2023 sera l'année de Maryline Dubois",
+        "comment":"Et rien que pour ça je deviendrai turinois !"
+    },
+    {
+        "sentence":"En 2023 je serai plus adroit",
+        "comment":"Autant que Philippe Croison le prévoit !"
+    },
+    {
+        "sentence":"En 2023, je pense coucher avec Christina Aguilera",
+        "comment":"Sauf que je trompe et fini avec Frédéric...le vichyssois"
+    },
+    {
+        "sentence":"En 2023, je n'espère pas croiser Alexandre Benalla",
+        "comment":"Surtout en manif il va de soit !"
+    }, 
+    {
+        "sentence":"En 2023, je rape avec Booba",
+        "comment":"La Honda, JSX, numéro dix, Maradona <br> \
+        On a fumé l'espoir, faut toucher du bois (paw, paw, paw) <br> \
+        Fuck ton abus de pouvoir (paw, paw, paw) <br> \
+        chez moi c'est les balles qui font la loi (paw, paw, paw) <br> \
+        Saint-Martin, côté Hollandais, paquet flottant, cocaïna <br> \
+        Un cheat code pour la crypto' mettez moi deux Mona Lisa"
+    },
+    {
+        "sentence":"En 2023, je regarde tous ce que tourne Cécile bois",
+        "comment":"Candice Renoir ça ne parle pas ?!"
+    },
+    {
+        "sentence":"En 2023, je porterai du Christian Lacroix",
+        "comment":"Pas de bol c'est pas ma taille le 43 !"
+    },
+    {
+        "sentence":"En 2023, je ne ferrai pas d'humour misogyne comme Olivier de Benoist",
+        "comment":"Ou alors si peu que je ne me fourvoie!"
+    },
+    {
+        "sentence":"En 2023, je vénère Claude François",
+        "comment":"Pour les coupures électriques il va de soit !"
+    },
+    {
+        "sentence":"En 2023, je rame autant que Maud Fontenoy",
+        "comment":"Ouai mais à contre-courant ça merdoit !"
+    },
+    {
+        "sentence":"En 2023, je cherche à prendre la voix de Gilbert Bribois",
+        "comment":"Mais son cerveau ça risque pas !"
+    },
+    {
+        "sentence":"En 2023, je chante du  Nolwenn Leroy",
+        "comment":"Avec le costume de Pierre Mauroy..."
+    },
+    {
+        "sentence":"En 2023, je suis Yannick Noah",
+        "comment":"Le tennisman...mais le fumeur de surcroit !"
+    },
+    {
+        "sentence":"En 2023, je me souviens de Patrick Roy",
+        "comment":"Mais si ! «Une famille en or» ! Le présentateur ! Souviens-toi  !"
+    },
+    {
+        "sentence":"En 2023, je suis Bertrand Chameroy",
+        "comment":"Et je me prends au sérieux chez Hanouna"
+    },
+    {
+        "sentence":"En 2023, la fondue sera de savoie",
+        "comment":"Avec du pain frais et un coup de blanc ça envoie !"
+    },
+    {
+        "sentence":"En 2023, je me rassoie",
+        "comment":"Mon mal au cul passera !"
     }
 ];
 
+
 /*
-aboi, accroit, adroit, aloi, broie, choie, conçoit, croie, déchoie, déçoit, déploie, envoie, échoie, envois, 
-flamboie, fois, fossoie, fourvoie, larmoie, louvoie, merdoie, noie, parfois, paroi, pavois, perçois, pois, conçois, prévois, quelquefois, 
-rassoie, revois, rougeoie, sois, soudoie, sursois, surcrois, tournoi, tournoie, toutefois, turinois, verdoie, vois, voie
+accroit, aloi, broie, choie, conçoit, croie, déchoie, déçoit, déploie, envoie, échoie, 
+fois, fossoie, fourvoie, larmoie, louvoie, noie, parfois, paroi, pavois, perçois, pois, 
+prévois, quelquefois, revois, rougeoie, sois, soudoie, sursois, surcrois, tournoi, tournoie,
+toutefois, verdoie, vois, voie
 */
   
 /////////////////////////////////////////////////////////////////////////////////
