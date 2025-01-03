@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bienvenue sur le site de la troupe Banzaï théâtre">
     <meta name="author" content="LeChaps">
-    <title>2023 - Banzaï</title>
+    <title>2025 - Banzaï</title>
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -67,47 +67,30 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">Banzaï vous propose <span id="proposal-count"></span> manières de souhaiter les voeux 2023</h3>
+          <h3 class="float-md-start mb-0">Bienvenu sur le site de la troupe Banzaï théâtre</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
           </nav>
         </div>
       </header>
 
       <main class="px-3">
-        <h1 id="proposal"></h1>
-        <p id="comment" class="lead"></p>
-        <p class="lead">
-          <button id="reload-button" type="button" class="btn btn-outline-info btn-lg">Un autre voeu</button>
+        <h1>2025</h1>
+        <p>
+          À tout ce qui te plaît et qui te requinque<br>
+          À ce que tu hais : subjonctif, œdème de Quincke,<br>
+          À ces aventures dignes du Club des Cinq,<br>
+          À ces quelques mots, ami, qui te convainquent<br>
+          De voir, lire ou écrire, t’arrêter au zinc.<br>
+          Oublions maintenant les conseils d’Alain Minc.<br>
+          Prenons, comme dans un mauvais anglais, un drink.<br>
+          À ce moment précieux, à nous, je trinque<br>
+          Et te souhaite une belle année 2025.
         </p>
       </main>
 
       <footer class="mt-auto text-white-50">
-        <p>Made with &#127814; and  &#127825; by <a href="https://twitter.com/lechaps" target="_blank" class="text-white">@Lechaps</a>.</p>
+        <p>Made with &#128154; by <a href="https://github.com/lechaps" target="_blank" class="text-white">@Lechaps</a>.</p>
       </footer>
     </div>
   </body>
 </html>
-<script src="./script.js"></script>
-<script>
-  function displayRandomProposal() {
-    // Sélectionne une proposition au hasard
-    const selectedProposal = selectRandomProposal();
-
-    // Affiche la proposition sélectionnée dans la page HTML
-    document.getElementById("proposal").innerHTML = selectedProposal.sentence;
-    if (selectedProposal.hasOwnProperty("comment")) {
-      // La propriété "comment" est définie
-      document.getElementById("comment").innerHTML = selectedProposal.comment;
-    }
-    else {
-      document.getElementById("comment").innerHTML = "&nbsp;";
-    }
-  }
-
-  // Affiche une proposition au hasard au chargement de la page
-  window.onload = displayRandomProposal;
-  // Affiche le nombre de propositions
-  document.getElementById("proposal-count").innerHTML = proposalCount;
-  // Recharge une proposition
-  document.getElementById("reload-button").addEventListener("click", displayRandomProposal);
-</script>
